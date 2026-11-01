@@ -1,0 +1,162 @@
+:root{font-family:'DM Sans',sans-serif;color:#3f302b;background:#f8f3ed;font-synthesis:none;text-rendering:optimizeLegibility}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}.page-shell{max-width:1120px;margin:auto;background:#fffdf9;box-shadow:0 0 60px #5b40300d}.topbar{height:68px;padding:0 6%;display:flex;align-items:center;justify-content:space-between;background:#fffdf9}.brand{text-decoration:none;color:#4b352e;font-family:'Playfair Display',serif;font-size:19px}.brand span{color:#b58a5b}.music-button{display:flex;gap:8px;align-items:center;border:1px solid #e8dace;border-radius:30px;background:transparent;color:#70594c;padding:9px 14px;font:inherit;font-size:12px;cursor:pointer}.hero{height:min(690px,76vw);min-height:500px;position:relative;display:grid;place-items:center;text-align:center;color:white;overflow:hidden}.hero-image{position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=2000&q=90') center 48%/cover;transform:scale(1.02)}.hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,#24150d9c,#24150d55),linear-gradient(0deg,#21150d70,transparent 60%)}.hero-content{position:relative;padding:30px}.eyebrow{text-transform:uppercase;letter-spacing:3px;font-size:10px;font-weight:700;color:#a27c58}.eyebrow.light{color:#f2d9bd}.hero h1,.cover-card h1{font:500 clamp(55px,9vw,105px)/.98 'Playfair Display',serif;margin:25px 0;color:#fff}.hero h1 span,.cover-card h1 span{display:block;font-size:.5em;font-style:italic;color:#e6c69f;margin:10px}.hero-date{letter-spacing:3px;text-transform:uppercase;font-size:12px;margin:26px 0 36px}.text-link{display:inline-flex;gap:9px;align-items:center;color:#fff;text-decoration:none;font-size:12px;border-bottom:1px solid #ffffff80;padding-bottom:8px}.hero-stamp{position:absolute;right:7%;bottom:9%;border:1px solid #f6dfc5;border-radius:50%;width:86px;height:86px;display:grid;place-content:center;font:12px/1.4 'Playfair Display',serif;letter-spacing:2px;transform:rotate(10deg)}.section{text-align:center;padding:88px 8%}.intro{background:#fbf6ef}.flourish{font:40px 'Playfair Display',serif;color:#b68c61;margin:12px}.section h2{font:500 clamp(30px,4vw,43px)/1.15 'Playfair Display',serif;color:#4b352e;margin:13px 0 18px}.body-copy{max-width:540px;margin:0 auto;color:#8a7669;font-size:14px;line-height:1.9}.name-pair{display:flex;align-items:center;justify-content:center;gap:35px;margin:45px auto 0}.name-pair div{display:flex;flex-direction:column;gap:8px}.small-label{font-size:9px;text-transform:uppercase;letter-spacing:2px;color:#a88a72}.name-pair strong{font:30px 'Playfair Display',serif}.ampersand{font:italic 32px 'Playfair Display',serif;color:#b68c61}.countdown-section{background:#fffdf9}.countdown{display:flex;justify-content:center;gap:clamp(12px,4vw,48px);margin:35px 0 20px}.time-unit{display:flex;flex-direction:column;gap:8px;min-width:62px}.time-unit strong{font:40px 'Playfair Display',serif;color:#8d6848}.time-unit span{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#a38d7b}.muted{font-size:12px;color:#a38d7b}.events-section{background:#f8f3ed}.event-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;max-width:760px;margin:42px auto 0;text-align:left}.event-card{position:relative;background:#fffdf9;padding:28px;border:1px solid #eee4d9;min-height:245px}.event-number{position:absolute;right:22px;top:20px;color:#e5d6c6;font:25px 'Playfair Display',serif}.event-icon{color:#b58a5b}.event-card h3{font:25px 'Playfair Display',serif;margin:14px 0}.event-date,.event-place{display:flex;gap:9px;align-items:center;font-size:11px;color:#806b5d;margin:10px 0}.event-note{font-size:11px;line-height:1.7;color:#a18c7d;margin-top:18px}.gallery-section{background:#fffdf9}.gallery{display:grid;grid-template-columns:1.1fr .9fr;grid-template-rows:190px 190px;gap:12px;max-width:760px;margin:38px auto 0}.gallery-photo{border:0;padding:0;overflow:hidden;background:#eee;cursor:zoom-in}.gallery-photo img{width:100%;height:100%;object-fit:cover;transition:transform .5s}.gallery-photo:hover img{transform:scale(1.05)}.photo-1{grid-row:span 2}.photo-note{font-size:10px;color:#b09c8d;margin-top:15px}.venue-section{background:#f8f3ed;padding-top:70px;padding-bottom:70px}.venue-card{max-width:600px;margin:auto;padding:55px 25px;background:#fffdf9;border:1px solid #eadfD2;position:relative}.venue-icon{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:#f5eadc;color:#9b7654;margin:0 auto 20px}.venue-card h2{font-size:34px}.venue-card>p:not(.eyebrow){color:#8c786b;font-size:13px}.venue-date{letter-spacing:1px;margin:24px 0!important}.primary-button{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;background:#805b43;color:white;text-decoration:none;padding:14px 23px;font:600 11px 'DM Sans',sans-serif;letter-spacing:.5px;cursor:pointer;transition:background .2s}.primary-button:hover{background:#60412f}.map-button{margin-top:10px}.closing{background:#fbf6ef}.closing .primary-button{margin-top:28px}.signature{font:italic 23px 'Playfair Display',serif;color:#987452;margin:40px 0 0}footer{display:flex;align-items:center;justify-content:center;gap:6px;padding:23px;background:#4c382e;color:#e9d8c7;font-size:10px;letter-spacing:.6px}footer svg{color:#d5a58b}.cover-screen{position:fixed;inset:0;z-index:10;background:radial-gradient(circle at center,#f9f0e5,#e8d8c5);display:grid;place-items:center;padding:20px}.cover-card{position:relative;width:min(540px,100%);min-height:580px;padding:55px 25px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border:1px solid #b9946f;outline:1px solid #b9946f;outline-offset:7px;background:linear-gradient(145deg,#fffaf3,#f4e8d9);box-shadow:0 20px 70px #5b40301a}.cover-card h1{color:#563e32;font-size:clamp(58px,10vw,84px);margin:28px 0}.cover-card h1 span{color:#b58a5b}.cover-card .eyebrow{margin-top:28px}.cover-copy{font:italic 16px/1.8 'Playfair Display',serif;color:#816a58}.cover-date{margin:24px 0 30px;font-size:10px;text-transform:uppercase;letter-spacing:2px;color:#9b795d}.ornament{font:27px 'Playfair Display',serif;color:#b58a5b}.ornament.bottom{position:absolute;bottom:24px}.lightbox{position:fixed;inset:0;z-index:20;background:#1d1713ed;display:grid;place-items:center;padding:25px}.lightbox img{max-width:min(900px,95vw);max-height:85vh;object-fit:contain}.lightbox button{position:absolute;right:25px;top:15px;background:none;border:0;color:#fff;font-size:38px;cursor:pointer}
+@media(max-width:640px){.topbar{height:58px;padding:0 5%}.brand{font-size:16px}.hero{min-height:570px;height:78vh}.hero h1{font-size:68px}.hero-stamp{width:68px;height:68px;font-size:9px;right:5%;bottom:5%}.section{padding:68px 6%}.event-grid{grid-template-columns:1fr;gap:12px}.event-card{min-height:220px}.gallery{grid-template-rows:145px 145px;gap:8px}.countdown{gap:13px}.time-unit{min-width:52px}.time-unit strong{font-size:32px}.name-pair{gap:18px}.name-pair strong{font-size:25px}.venue-card{padding:42px 18px}.cover-card{min-height:530px}.cover-card h1{font-size:65px}}
+
+/* Hindu wedding edition: marigold, vermilion, ivory and antique-gold details. */
+:root{color:#493027;background:#f4eadb}
+.page-shell{background:#fffaf0}
+.topbar{background:#fffaf0;border-bottom:1px solid #ead8b8}
+.brand{color:#633322}.brand span{color:#bd7b22}
+.music-button{border-color:#d9b77e;color:#783c28}
+.hero{min-height:540px;border-bottom:7px solid #c18a36}
+.hero-image{background-image:url('https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&w=2000&q=90');background-position:center 42%}
+.hero-overlay{background:linear-gradient(90deg,#35180dcc,#4c211c66),linear-gradient(0deg,#35180d99,transparent 65%)}
+.hero h1,.cover-card h1{font-family:'Playfair Display',serif;text-shadow:0 2px 18px #2b130b55}
+.hero h1 span,.cover-card h1 span{color:#f2c76d}
+.eyebrow{color:#a34a2d;letter-spacing:2.5px}
+.eyebrow.light{color:#ffe4a9}
+.hero-date{color:#ffe9c1}
+.hero-stamp{border:1px solid #f4d58e;color:#ffe2a2;border-radius:48% 48% 44% 44%;font-family:serif;font-size:13px;line-height:1.45;width:94px;height:105px;transform:rotate(0)}
+.section h2{color:#642f25}
+.intro,.closing{background:#fff4e2}
+.flourish{color:#bf762b}
+.name-pair strong{color:#713a2b}
+.ampersand{color:#b67a2b}
+.countdown-section{background:#fffaf0}
+.time-unit strong{color:#9a4c2c}
+.events-section,.venue-section{background:#f5e9d5}
+.event-card{background:#fffaf0;border:1px solid #e6c995;border-top:3px solid #b76b32;box-shadow:0 8px 24px #78401a0a}
+.event-number{color:#ead9b9}
+.event-icon{color:#b76b32;font-size:24px}
+.event-icon span{font-size:25px}
+.event-card h3{color:#713a2b}
+.event-date,.event-place{color:#765847}
+.gallery-section{background:#fffaf0}
+.gallery-photo{outline:1px solid #dfc18b;outline-offset:3px}
+.venue-card{background:#fffaf0;border:1px solid #d9b77e;box-shadow:0 12px 35px #78401a0d}
+.venue-icon{background:#f5e5c8;color:#9c482c;border:1px solid #e7c58a}
+.primary-button{background:#8c3027;border:1px solid #b77932;color:#fff7e8;border-radius:2px}
+.primary-button:hover{background:#68231e}
+footer{background:#642c24;color:#f9e7c8}
+footer svg{color:#e6b85c}
+.cover-screen{background:radial-gradient(circle at center,#fff5df,#dfbd83);background-image:radial-gradient(circle at 12% 18%,#c8873730 0 2px,transparent 3px),radial-gradient(circle at 88% 82%,#c8873730 0 2px,transparent 3px),linear-gradient(135deg,#f8e8c9,#e4c18b)}
+.cover-card{border:1px solid #b47a32;outline:1px solid #b47a32;background:linear-gradient(145deg,#fffaf0,#f8e9cf);box-shadow:0 20px 70px #6d321b20}
+.cover-card:before,.cover-card:after{content:'✿  ❧  ✿';position:absolute;left:0;right:0;color:#b77932;font-size:18px;letter-spacing:8px}
+.cover-card:before{top:13px}.cover-card:after{bottom:48px}
+.cover-card h1{color:#702f25;text-shadow:none}
+.cover-card h1 span{color:#b77932}
+.cover-card .eyebrow{color:#9c4b2d}
+.cover-copy{color:#765340}
+.cover-date{color:#9c4b2d}
+.ornament{color:#b77932}
+.ganesha-mark{font-family:serif;color:#9a3828;font-size:36px;line-height:1;margin-bottom:7px}
+.invocation{font-family:serif;color:#9a3828;font-size:15px;letter-spacing:1px;margin:8px 0}
+.hero-invocation{color:#ffe3a5;font-size:18px;margin:0 0 15px}
+.cover-foot{position:absolute;bottom:13px;color:#9c4b2d;font-size:8px;letter-spacing:2px}
+.section-symbol{font-family:serif;color:#b77932;font-size:23px;margin:15px 0}
+@media(max-width:640px){.hero{min-height:570px}.hero-stamp{width:76px;height:88px;font-size:11px}.cover-card:after{bottom:48px}}
+
+/* Rice-ivory and antique-gold edition with traditional ornamental borders. */
+:root{color:#594321;background:#eee2c6}
+body{background:radial-gradient(ellipse at top,#fff9e9 0%,#eee0bd 72%,#e5d2a9 100%)}
+.page-shell{position:relative;background:#fff9e9;border-left:1px solid #d7b76c;border-right:1px solid #d7b76c}
+.page-shell:before{content:"";position:absolute;inset:9px;z-index:6;pointer-events:none;border:1px solid #c69a43;outline:1px solid #e5cc8d;outline-offset:4px}
+.topbar{background:#fff9e9;border-bottom:1px solid #dfc98e}
+.brand{color:#6c4b19}.brand span{color:#bd8a2f}
+.music-button{border-color:#d3b66d;color:#79581f}
+.hero{border-bottom:5px solid #c69a43;outline:1px solid #f5e7bd;outline-offset:-12px}
+.hero-overlay{background:linear-gradient(90deg,#3a2a13b5,#4c381866),linear-gradient(0deg,#33240d88,transparent 65%)}
+.hero h1 span,.cover-card h1 span{color:#f3d78b}
+.eyebrow{color:#987027}.eyebrow.light{color:#f8e8bd}
+.hero-date{color:#fff0c8}
+.hero-stamp{border:1px solid #f0d58d;color:#ffedbf}
+.section h2{color:#70501e}
+.intro,.closing{background:#f8efd9;border-top:1px solid #e3ce98;border-bottom:1px solid #e3ce98}
+.flourish,.ampersand{color:#b88632}
+.name-pair strong{color:#73521e}
+.countdown-section,.gallery-section{background:#fff9e9}
+.time-unit strong{color:#9a6e22}
+.events-section,.venue-section{background:#f2e6c9}
+.event-card{background:#fffaf0;border:1px solid #d9bd78;border-top:3px solid #bd8c35;box-shadow:0 8px 24px #785b1a12;outline:1px solid #ead9a9;outline-offset:-6px}
+.event-number{color:#e3d1a2}.event-icon{color:#a97a27}
+.event-card h3{color:#75531d}.event-date,.event-place{color:#79633a}
+.gallery-photo{outline:1px solid #c99d4c;outline-offset:3px;border:3px solid #fff8e8}
+.venue-card{background:#fff9e9;border:1px solid #cba452;outline:1px solid #ead8a6;outline-offset:5px;box-shadow:0 12px 35px #785b1a12}
+.venue-icon{background:#f4e8c8;color:#9a6e22;border:1px solid #d9bd78}
+.primary-button{background:linear-gradient(135deg,#a97922,#c69a43 55%,#9b6a1c);border:1px solid #8f641d;color:#fff9e9;box-shadow:inset 0 1px #f8e7b5,0 3px 8px #75501820;border-radius:3px}
+.primary-button:hover{background:linear-gradient(135deg,#8e621c,#b88731)}
+footer{background:#77551f;color:#fff0c7;border-top:3px double #d6b76d}
+footer svg{color:#f0d38b}
+.cover-screen{background:radial-gradient(circle at center,#fff9e9,#e9d6a6);background-image:radial-gradient(circle at 12% 18%,#bd8c3525 0 2px,transparent 3px),radial-gradient(circle at 88% 82%,#bd8c3525 0 2px,transparent 3px),linear-gradient(135deg,#fff8e6,#e8d4a4)}
+.cover-card{border:1px solid #bd8c35;outline:1px solid #d8b96d;outline-offset:7px;background:linear-gradient(145deg,#fffaf0,#f6ebcf);box-shadow:0 20px 70px #6d501b20}
+.cover-card:before,.cover-card:after{content:'❧  ✧  ❧';position:absolute;left:0;right:0;color:#b88632;font-size:19px;letter-spacing:10px}
+.cover-card:before{top:13px}.cover-card:after{bottom:48px}
+.cover-card h1{color:#75521e;text-shadow:none}.cover-card h1 span{color:#b88632}
+.cover-card .eyebrow{color:#987027}.cover-copy{color:#80683a}.cover-date{color:#987027}
+.ornament{color:#b88632}
+.invocation{font-family:serif;color:#8d641e;font-size:16px;letter-spacing:1.2px;margin:10px 0}
+.hero-invocation{color:#ffedc0;font-size:19px;margin:0 0 15px}
+.cover-foot{position:absolute;bottom:13px;color:#987027;font-size:9px;letter-spacing:2px}
+.ganesha-image{width:112px;height:112px;margin:0 auto 8px;filter:drop-shadow(0 5px 7px #8b641d20)}
+.section-symbol{font-family:serif;color:#b88632;font-size:23px;margin:15px 0}
+/* Subtle ornamental section separators and corner detailing. */
+.section{position:relative}
+.section:after{content:"✧　❧　✧";display:block;color:#bd8c35;font-size:15px;letter-spacing:5px;margin:28px auto -25px;opacity:.8}
+.event-card:before,.venue-card:before{content:"✦";position:absolute;top:8px;left:12px;color:#c49a4a;font-size:13px}
+.event-card:after,.venue-card:after{content:"✦";position:absolute;bottom:8px;right:12px;color:#c49a4a;font-size:13px}
+@media(max-width:640px){.page-shell:before{inset:6px;outline-offset:2px}.ganesha-image{width:96px;height:96px}.cover-card{padding:48px 20px}.section:after{margin-top:22px}}
+
+
+/* Accessible wedding-music controls: music starts only after a guest gesture. */
+.topbar-note{font-family:serif;color:#987027;font-size:13px;letter-spacing:1px}
+.music-hint{margin:12px 0 0;color:#987027;font-size:10px;letter-spacing:.3px}
+.floating-music{position:fixed;right:20px;bottom:20px;z-index:9;display:flex;align-items:center;gap:9px;padding:12px 16px;border:1px solid #c69a43;border-radius:999px;background:linear-gradient(135deg,#a97922,#c69a43 55%,#9b6a1c);color:#fff9e9;box-shadow:0 7px 22px #5d421f35;font:600 12px 'DM Sans',sans-serif;cursor:pointer}
+.floating-music.is-playing{background:linear-gradient(135deg,#77551f,#a97922)}
+.floating-music:focus-visible{outline:3px solid #6c4b19;outline-offset:3px}
+.audio-credit{display:block;flex-basis:100%;margin-top:8px;color:#f7e8c8;text-decoration:underline;text-underline-offset:3px;font-size:9px;letter-spacing:0}
+footer{flex-wrap:wrap}
+@media(max-width:640px){.floating-music{right:13px;bottom:14px;padding:12px 14px}.topbar-note{font-size:11px}}
+
+
+/* Traditional Kannada invitation-card entrance: mango-leaf torana, floral corners and opening reveal. */
+.cover-card{overflow:visible;isolation:isolate;z-index:2;border:1.5px solid #b88632;outline:1px solid #dfc783;outline-offset:8px}
+.cover-card:before,.cover-card:after{z-index:0;pointer-events:none}
+.cover-card>*{position:relative;z-index:1}
+.cover-card .mango-torana{position:absolute;z-index:4;left:50%;top:-45px;transform:translateX(-50%);width:min(112%,570px);height:auto;filter:drop-shadow(0 3px 2px #72521c22);overflow:visible}
+.ganesha-image{position:relative;z-index:2;margin-top:24px}
+.cover-card>.cover-corner{position:absolute!important;z-index:3!important;color:#b88632;font-size:35px;line-height:1;text-shadow:0 1px #fff1c8;pointer-events:none}
+.cover-corner.corner-tl{top:12px;left:13px}.cover-corner.corner-tr{top:12px;right:13px}
+.cover-corner.corner-bl{bottom:15px;left:13px}.cover-corner.corner-br{bottom:15px;right:13px}
+.open-invitation-button{position:relative;z-index:2;min-width:205px}
+.open-invitation-button:disabled{opacity:.82;cursor:wait}
+.cover-screen.is-opening{animation:coverFadeAway 1.35s ease-in-out forwards;pointer-events:none}
+.cover-screen.is-opening:before,.cover-screen.is-opening:after{content:"";position:absolute;top:0;bottom:0;width:50.5%;z-index:1;pointer-events:none;background:linear-gradient(135deg,#f3dfb4,#d5ae62 48%,#f8eac9);box-shadow:inset 0 0 30px #78551d24}
+.cover-screen.is-opening:before{left:0;transform-origin:left;animation:curtainLeft 1.25s cubic-bezier(.72,0,.25,1) forwards}
+.cover-screen.is-opening:after{right:0;transform-origin:right;animation:curtainRight 1.25s cubic-bezier(.72,0,.25,1) forwards}
+.cover-screen.is-opening .cover-card{animation:invitationCardOpen 1.1s cubic-bezier(.2,.75,.25,1) forwards}
+.cover-screen.is-opening .mango-torana{animation:toranaLift .9s ease-in forwards}
+@keyframes curtainLeft{to{transform:perspective(900px) rotateY(-82deg) translateX(-105%);opacity:.35}}
+@keyframes curtainRight{to{transform:perspective(900px) rotateY(82deg) translateX(105%);opacity:.35}}
+@keyframes invitationCardOpen{0%{transform:scale(1) rotateX(0);opacity:1}45%{transform:scale(1.035) rotateX(2deg);opacity:1}100%{transform:scale(1.12) translateY(-18px);opacity:0;filter:blur(3px)}}
+@keyframes toranaLift{to{transform:translate(-50%,-35px);opacity:0}}
+@keyframes coverFadeAway{0%{opacity:1}82%{opacity:1}100%{opacity:0;visibility:hidden}}
+@media(max-width:640px){.cover-card{margin-top:20px;min-height:530px;padding-top:56px}.cover-card .mango-torana{top:-31px;width:108%}.ganesha-image{width:90px;height:90px;margin-top:17px}.cover-corner{font-size:27px}.cover-screen.is-opening:before,.cover-screen.is-opening:after{width:51%}}
+@media(prefers-reduced-motion:reduce){.cover-screen.is-opening,.cover-screen.is-opening:before,.cover-screen.is-opening:after,.cover-screen.is-opening .cover-card,.cover-screen.is-opening .mango-torana{animation-duration:.01ms;animation-iteration-count:1}}
+
+/* V5 fixes: clearer Ganesha emblem, bilingual couple names and mobile spacing. */
+.ganesha-image{width:124px;height:124px;display:block;flex:none;filter:drop-shadow(0 5px 7px #8b641d22)}
+.name-pair.kannada-name-pair{margin-top:18px;padding-top:18px;border-top:1px solid #e7d6aa;max-width:430px}
+.kannada-name-pair .small-label{font-family:serif;font-size:13px;letter-spacing:1px;text-transform:none;color:#987027}
+.kannada-name-pair strong{font-family:serif;font-size:25px;color:#73521e}
+.kannada-name-pair .ampersand{font-family:serif;font-size:17px;font-style:normal}
+@media(max-width:640px){.ganesha-image{width:108px;height:108px}.name-pair.kannada-name-pair{gap:17px;margin-top:16px;padding-top:15px}.kannada-name-pair strong{font-size:22px}}
+
+
+/* V6: use the customer's supplied Ganesha artwork in the existing gold frame. */
+.ganesha-image{
+  width:124px;height:124px;display:block;flex:none;object-fit:contain;
+  margin:24px auto 8px;padding:4px;box-sizing:border-box;
+  background:#fff;border:2px solid #bd8c35;border-radius:50%;
+  outline:1px solid #dfc783;outline-offset:3px;
+  box-shadow:0 5px 14px #8b641d24;
+}
+@media(max-width:640px){.ganesha-image{width:108px;height:108px;margin-top:17px}}
